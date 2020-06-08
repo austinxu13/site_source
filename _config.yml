@@ -216,6 +216,7 @@ font:
 social:
   #LinkLabel: Link
   GitHub: https://github.com/austinxu13
+  GitLab: https://gitlab.com/austinxu
 
 
 # Social Links Icons
@@ -228,6 +229,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
+  GitLab: gitlab
   Twitter: twitter
   Weibo: weibo
 
@@ -242,7 +244,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
@@ -284,9 +286,16 @@ sidebar:
 # Blog rolls
 links_title: Links
 #links_layout: block
-#links_layout: inline
+links_layout: inline
 links:
+  PDG: http://pdg.lbl.gov/index.html
   LHCb: https://lhcb.web.cern.ch/
+  Zhihu: https://www.zhihu.com/
+  Quora: https://www.quora.com/
+  IMDb: https://www.imdb.com/
+  douban: https://www.douban.com/
+  bangumi: https://bgm.tv/
+  JapanesePod101: https://www.japanesepod101.com/
 
 
 # ---------------------------------------------------------------
