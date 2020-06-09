@@ -1,0 +1,1516 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/assets/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/assets/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Pixar,ComputerGraphic," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="一篇计算科学的史诗， 一场兑现的资本盛宴">
+<meta name="keywords" content="Pixar, ComputerGraphic">
+<meta property="og:type" content="article">
+<meta property="og:title" content="科学，艺术，天才">
+<meta property="og:url" content="http://localhost:4000/technology/2020/04/01/%E7%9A%AE%E5%85%8B%E6%96%AF/">
+<meta property="og:site_name" content="Wonderland">
+<meta property="og:description" content="一篇计算科学的史诗， 一场兑现的资本盛宴">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/images/2020-04-01/1-check.jpg">
+<meta property="og:image" content="/images/2020-04-01/2-hand.jpg">
+<meta property="og:image" content="/images/2020-04-01/3-EC.jpg">
+<meta property="og:image" content="/images/2020-04-01/4-IS.jpg">
+<meta property="og:image" content="/images/2020-04-01/5-JC.jpg">
+<meta property="og:image" content="/images/2020-04-01/6-JW.jpg">
+<meta property="og:image" content="/images/2020-04-01/7-AK.jpg">
+<meta property="og:image" content="/images/2020-04-01/8-cube.jpg">
+<meta property="og:image" content="/images/2020-04-01/9-JL.jpg">
+<meta property="og:image" content="/images/2020-04-01/10-reyes.jpg">
+<meta property="og:image" content="/images/2020-04-01/11-lump.jpg">
+<meta property="og:image" content="/images/2020-04-01/12-lion.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="科学，艺术，天才">
+<meta name="twitter:description" content="一篇计算科学的史诗， 一场兑现的资本盛宴">
+<meta name="twitter:image" content="/images/2020-04-01/1-check.jpg">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"hide","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/"/>
+
+
+
+
+
+  <title>科学，艺术，天才 | Wonderland</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Wonderland</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+<div id="posts" class="posts-expand">
+  
+  
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/technology/2020/04/01/%E7%9A%AE%E5%85%8B%E6%96%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Austin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar/cloud_smile.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            科学，艺术，天才
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-04-01T00:00:00+08:00">
+                2020-04-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/Technology" itemprop="url" rel="index">
+                    <span itemprop="name">Technology</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+            
+                <div class="post-description">
+                    一篇计算科学的史诗， 一场兑现的资本盛宴
+                </div>
+            
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <p><strong>张心欣</strong></p>
+
+<p><em><a href="https://zhuanlan。zhihu。com/p/121868664">原文链接</a></em></p>
+
+<p><img src="/images/2020-04-01/1-check.jpg" class="full-image" /></p>
+
+<p>题图：在皮克斯的早期，史帝夫乔布斯写给皮克斯的 500 万美金支票，
+这可能是人类科学和艺术史上花得最值钱的 500 万美元。 
+没有这张支票，皮克斯，迪斯尼，三维成像，图形技术，漫威，电影，数字娱乐，核显卡······
+你现在所能想到的一切令你快乐的事物，在另一个平行宇宙里的地球上，都是梦幻泡影。</p>
+
+<p>时钟拨回到 1972 年，
+在 Utah 大学的计算机科学课程上，一位博士，用贝塞尔曲线算法，
+为这节课提交了一个课程项目 
+<a href="https://en。wikipedia。org/wiki/A_Computer_Animated_Hand">A Computer Animated Hand</a>。</p>
+
+<p><img src="/images/2020-04-01/2-hand.jpg" alt="" title="A Computer Animated Hand" /></p>
+
+<p>这只手，是美国历史上最早记载的计算机生成动画 (CG)。</p>
+
+<p>这位博士，名字叫做爱德稳 · 卡特缪尔(Edwin Catmull)。 
+3年前，他刚拿到自己的物理系学位，凭借着自己对于图形的热情，
+他成为了一家叫 Applicon 的做 CAD 软件的公司的雇员。</p>
+
+<p><img src="/images/2020-04-01/3-EC.jpg" alt="" title="爱德稳 · 卡特缪尔 (Edwin Catmull)" /></p>
+
+<p>早年，作为一个理工直男，Catmull 最爱的却是艺术，
+据他的自传记载，他从小授迪斯尼影响极深，
+奈何自己并没有画画的天分，就选择了理工科，
+虽然一举拿到了博士学位，却与自己的理想渐行渐远。</p>
+
+<p>直到他遇到了 Ivan Sutherland 而开始了计算机科学博士学位的进修。</p>
+
+<p><img src="/images/2020-04-01/4-IS.jpg" alt="" title="Ivan Sutherland（图灵奖得主，计算机先驱，冯诺伊曼奖章，工程与科学院院士，ACM会士，计算机历史博物馆会士)" /></p>
+
+<p>Ivan Sutherland 设计了一种叫 
+<a href="https://en。wikipedia。org/wiki/Sketchpad">Sketchpad</a>
+的程序，允许人们用计算机作画。</p>
+
+<p>遇到了 Sketchpad 的 Catmull 仿佛重获新生，
+找到了将自己的艺术理想与理工科学结合的希望，
+他师从 Ivan Sutherland，
+参与当时他导师带领的 DARPA 科研项目（三维显示相关），与 James H. Clark， John Warnock 以及 Alan Kay 作为同门师兄弟。</p>
+
+<p><img src="/images/2020-04-01/5-JC.jpg" alt="" title="James Clark，同一些斯坦福的学生一起创立了 Silicon Graphics, Inc. (SGI)。
+SGI 是早期图形工作站的生产者，直至现在，是 OpenGL 标准的创立和维护者。 
+1994 年，Clark 与 Marc Andreessen（Mosaic 的开发者，最早的网页浏览器） 
+创立了 Netscape，于次年 IPO，开启了互联网泡沫的时代，
+Clark 对 Netscape 最早 4 百万的投资换回了 12 亿回报。" /></p>
+
+<p><img src="/images/2020-04-01/6-JW.jpg" alt="" title="John Warnock，Adobe（对，Adobe 全家桶的那个 Adobe）的创始人。 
+同时他也是 Warnock 隐藏面算法的提出者。" /></p>
+
+<p><img src="/images/2020-04-01/7-AK.jpg" alt="" title="Alan Kay，曾是 Atari 的首席科学家，也是编程语言 Smalltalk 的获得者，同为图领奖得主。" /></p>
+
+<p>1974 年，Catmull 博士毕业，那时候的 Catmull，
+并不知道自己的博士论文 <em>A subdivision algorithm for computer display of curved surfaces</em> 将最终创造一个伟大的时代，
+成为哪怕地球化为灰烬后人类艺术与科技完美之结合不朽的佐证。 
+这篇论文至今有 1200 个引用，
+大概是一个机器学习小学生的引用量，
+计算机图形学看来真的不存在泡沫。</p>
+
+<p>在他的博士论文中，
+他提出了后来被世人称为 Catmull-Clark 子表面细分技术的算法，
+这个算法推导了一种通过构造式的方式产生平滑曲面的计算过程，
+所产生的平滑曲面能够逼近双三次 B 样条，
+与双三次 B 样条曲面最大的不同是，
+双三 B 只能作用与四边行定义的网格，
+而 CCSubdiv 的构造逻辑可以作用于任何拓扑的网格。 
+这大大的降低了对三维图形建模的要求以及提升了在计算机中产生平滑表面的可能，
+使得在当时有限的计算资源下创造好看的计算机三维动画具有了现实可能。</p>
+
+<p><img src="/images/2020-04-01/8-cube.jpg" alt="" title="一个立方体以及不断对它作用 ccsubdiv" /></p>
+
+<p>这也是为什么皮克斯早期的动画短片多是这样的简单平滑几何的原因之一。 
+可以说，技术既限制了艺术家的创造力，又激发了艺术家的创造力。 
+因为限制，艺术家必须用简单几何来塑造卡通形象，
+又反过来激发了艺术家去对于像玩具，
+跳跳灯这样的卡通造型赋予生命，
+从另一个角度成就了独特的皮克斯风格，
+建立了一定的品牌意识。</p>
+
+<p>同年，NYIT 的创立者 Alexander Schure 邀请当时计算机科学毕业的 Catmull 博士去领导 NYIT 新成立的计算机图形学实验室，
+而正是在 NYIT 的5年时间里，埋下了一个伟大时代的种子。 
+他与 Alvy Ray Smith, David DiFrancesco, Ralph Guggenheim, Jim Blinn，以及 Jim Clark 一起工作，
+进行图形学技术研究。</p>
+
+<p>5 年后，1979 年，乔治卢卡斯联系了 Catmull，
+基于星球大战的成功，
+卢卡斯在工业光魔成立了computer graphics division（计算机图形学部门），
+Catmull负责带领这个部门对图形技术进行探索。</p>
+
+<p>这个部门的主要成员就是: Alvy Ray Smith, David DiFrancesco, Ralph Guggenheim, Jim Blinn，以及 Jim Clark。</p>
+
+<p>在 1979 年到 1986 年这 7 年的时间里，
+这个小组做了什么事情很少有人知道。</p>
+
+<p>我就在这里帮大家梳理一下时间线，
+从而帮助挖掘出这个团队在这个期间做的最牛逼的事情来:</p>
+
+<p><strong>1983 年</strong></p>
+
+<p>这个团队渲染出了第一张电影分辨率的图片 <em>A road to point Reyes</em>。 
+同年，约翰拉赛特（John Lasseter）来到湾区为这个团队做一些外包工作。</p>
+
+<p><img src="/images/2020-04-01/9-JL.jpg" alt="" title="约翰拉赛特，皮克斯灵魂导演，
+皮克斯最重要的人物之一，
+执导玩具 1，2，汽车 1，2，bugs life。 
+以及监制，执行出品后续所有皮克斯动画。" /></p>
+
+<p>Reyes 如果不是搞图形学专业的可能很少有人知道（我打赌搞图形学专业的可能都很少有人知道），
+这是个伟大的名字，将会在 1987 年揭晓，
+并带领全世界数字娱乐计算真正步入新的时代。 
+此处我设个有奖问答，看到这里就知道我在说什么的朋友可以留言，我们约饭（仅限男生）。</p>
+
+<p><img src="/images/2020-04-01/10-reyes.jpg" alt="" title="A road to point Reyes" /></p>
+
+<p>这张现在看起来相貌平平的三维渲染，是那时候最绝密的技术。 
+（真想带一块RTX2080穿越回去，享受一下做神的感觉。）</p>
+
+<p><strong>1984 年</strong></p>
+
+<p>这个团队第一次在 Siggraph 1984 上展出了 <em>The Adventures of André &amp; Wally B</em>，
+这是人类史上第一部完全由计算机生成的动画短片。 
+展现了用计算机图形学技术生成的动画独特的艺术风格和叙事手段。</p>
+
+<p>这个时候，Catmull 膨胀了，整个团队膨胀了，至少在乔治卢卡斯看来，他们是膨胀了。 
+然而他们只是追梦，作为一个骨子里的科学家，很自然的，
+Catmull 不满足于现状，他想从事一个更伟大的实验：
+我们是否能够使用计算机图形技术，来生成一个全长的动画电影?</p>
+
+<p>乔治卢卡斯说：「滚你丫的，老子不是开善堂的」。
+乔治卢卡斯的本家也姓乔的乔布斯说：「刷我的卡」。 
+这之后就有了题图的支票。</p>
+
+<p><strong>1986 年，那是一个春天～</strong></p>
+
+<p>乔布斯买下了 Computer Graphics Division，并改名 Pixar（皮克斯），
+他自己也想不到，数十年后，他将以 74 亿美元的高价将这个梦易手，
+并从而拯救一个即将老死的企业。</p>
+
+<p><strong>1987 年</strong></p>
+
+<p>我出生了。 同年，一篇由 Robert Cook，Loren Carpenter，和 Edwin Catmull 共同合作完成的论文，
+在 Siggraph 1987 发表，论文标题是：
+<em>The REYES image rendering architecture</em>。
+论文中详细的阐述了一套将多边形面元通过子表面细分，微表面化，光栅化，
+结合可编程的 shader 做渲染计算（实现编译器），
+高效的内存管理，等等等等。 
+以及通过这一切光栅化算法的组合来近似全局光照的策略，
+比如构造阴影图，动态模糊，对焦等。
+我们现代显卡和实时图形引擎执行图形渲染计算所使用的算法流程，依然是照着这篇论文的大框架做的。</p>
+
+<p>Reyes，是 Render Everthing You Ever Saw（渲染一切你见过的东西）的缩写，
+足以见得团队当时的野心和宏愿。</p>
+
+<p>的确在当时也有一些光线追踪的算法，然而，结合当时的时代背景和计算性能，
+可以说光栅化渲染，是唯一可行的途径，
+Reyes 独具匠心的对算法大路径选择和细节实现的考量，
+真正使得作出照片级真实的计算机图像在当时就成为了可能，
+进而真正促成了计算娱乐产业的落地间接能够产生之后的发展。</p>
+
+<p>如果没有 Reyes，Catmull 他们没有作出这样战略性现实意义的博弈，
+那所有一切后面故事，都没有故事了。</p>
+
+<p>这个 Reyes 系统架构，商业上有一个名字，叫 PRMan，Photo Realistic RenderMan 也就是 Pixar 的鎮家之宝。 
+Reyes 这篇论文，引用大概 500 多。 
+图形学界也太不泡沫了。</p>
+
+<p>这里还插播一个趣闻，底下有评论提到加州有个地名就叫 point reyes。 
+这太有趣了：我想像这一群科学家，一起开车出去玩的时候，来到了那个地方，
+然后讨论起地名并有一个人惊叹道：「这不是叫 Render everything you ever saw 么！」 
+大家相视而笑，可见这帮人连放松时都在琢磨自己的工作。</p>
+
+<p>同年 siggraph (1987) 他们发布了跳跳灯短片，
+展示了 PRMan 的强大
+（恩，现在看来依然比国产五毛好多了）。</p>
+
+<p><img src="/images/2020-04-01/11-lump.jpg" alt="" /></p>
+
+<p>好现在我们回到卢卡斯成立 cg 部门的 1979 年，
+Catmull 他们在那个 CG 部门实际上是在干什么呢?</p>
+
+<p>Reyes 系统，不是一朝一夕能实现的，
+乔常威 1986 年才买团队，1987年就做出来，你阴我?!</p>
+
+<p>实际上，在工业光魔期间，他们就开始在着手开发 Reyes 了，
+但是卢卡斯不愿意支持他们做长片。 
+并连人带技术卖给了本家姓乔少爷。</p>
+
+<p>不过乔治卢卡斯不是猪头，据 Catmull 自述的资料显示，
+卢卡斯在卖走 PRMan 的时候，
+Catmull 等人曾与卢卡斯签订条约：
+工业光魔拥有今后 PRMan 所有版本的优先使用权与免费使用权。</p>
+
+<p>乔治卢卡斯：「哎，勉强不亏吧。」</p>
+
+<p>之后，有了玩具总动员一，
+那一天，全美国万人空巷，电影票一票难求。</p>
+
+<p>之后，迪斯尼几乎都快被逼完蛋了，
+只要继续坚持就有机会取代迪斯尼的皮克斯，
+以 74 亿美元身价和迪斯尼合并且分享技术，
+最终开启了伟大的新迪斯尼时代。</p>
+
+<p>之后，有了实时图形学，又有了英伟达。</p>
+
+<p>之后的之后，有了如今多姿多彩的世界。 
+人们用图形技术娱乐，学习，解决问题。</p>
+
+<p>现在，人们已经能用图形学技术创造一整个非洲大草原。</p>
+
+<p><img src="/images/2020-04-01/12-lion.jpg" alt="" title="狮子王剧照。" /></p>
+
+<p>看着这一切，我始终会想到，
+在 1970 年至 1989 年的 20 年间，
+有一位博士，凭着自己对理想的坚持和热爱，
+默默地编写着代码，他从尤它洲去到纽约洲，
+又从纽约去到三番，他与资本家据理力争过，
+与同寮谈人生谈理想过，他被敬佩过，也被嘲笑过，
+然而他始终保持着自己的天真——那个用计算机来创造全长动画电影的天真。</p>
+
+<p>正是这一份近乎天真的坚持，带领人类开创了一个新的世代。</p>
+
+<p>我想，这也是对他授予图灵奖的很大一个原因吧。</p>
+
+<p>也感谢那个给出五百万支票的疯子，
+我曾经亲自问过 Catmull 一个问题，在皮克斯的发展史上，你认为最重要的正确的事情是什么？
+他不加任何思索地回答道：「遇到乔布斯。」</p>
+
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            
+            <a href="/tag/#/Pixar" rel="tag"># Pixar</a>
+          
+            
+            <a href="/tag/#/ComputerGraphic" rel="tag"># ComputerGraphic</a>
+          
+        </div>
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+        <div class="post-nav" id="post-nav-id">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/reading/2020/04/01/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/" rel="next" title="音乐回荡在「挪威的森林」">
+                <i class="fa fa-chevron-left"></i> 音乐回荡在「挪威的森林」
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/reading/2020/04/01/%E4%B8%9C%E5%BE%80%E4%B8%9C%E6%9D%A5/" rel="prev" title="东往东来">
+                东往东来 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+      
+
+      
+    </footer>
+  </article>
+
+  <div class="post-spread">
+    
+  </div>
+</div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        
+        
+        
+
+
+
+
+
+
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar/cloud_smile.png"
+               alt="Austin" />
+          <p class="site-author-name" itemprop="name">Austin</p>
+           
+              <p class="site-description motion-element" itemprop="description">Austin's adventures in wonderland</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://github.com/austinxu13" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://gitlab.com/austinxu" target="_blank" title="GitLab">
+                  
+                    <i class="fa fa-fw fa-gitlab"></i>
+                  
+                  GitLab
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="http://pdg.lbl.gov/index.html" title="PDG" target="_blank">PDG</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://lhcb.web.cern.ch/" title="LHCb" target="_blank">LHCb</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.zhihu.com/" title="Zhihu" target="_blank">Zhihu</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.quora.com/" title="Quora" target="_blank">Quora</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.imdb.com/" title="IMDb" target="_blank">IMDb</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.douban.com/" title="douban" target="_blank">douban</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://bgm.tv/" title="bangumi" target="_blank">bangumi</a>
+                </li>
+              
+                
+                
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.japanesepod101.com/" title="JapanesePod101" target="_blank">JapanesePod101</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Austin</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+    
+
+  
+
+
+
+
+
+
+
+  
+
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
+
