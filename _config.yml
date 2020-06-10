@@ -21,8 +21,8 @@ permalink: pretty
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
+archive:
+  paginate: 20
   #paginate_path: "/page:num/"
 #category:
   #paginate: 10
@@ -641,7 +641,7 @@ pace: true
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
